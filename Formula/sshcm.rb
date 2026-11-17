@@ -1,25 +1,25 @@
 class Sshcm < Formula
   desc "SSH Connection Manager: add, edit, remove and list the connections in ~/.ssh/config"
   homepage "https://github.com/empatisoft/sshcm"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/empatisoft/sshcm/releases/download/v0.5.0/sshcm-aarch64-apple-darwin.tar.xz"
-      sha256 "8279f5ac78e2c83cba5219bc4704c649d9ba7dcd97272a0ece55a703b54353ef"
+      url "https://github.com/empatisoft/sshcm/releases/download/v0.6.0/sshcm-aarch64-apple-darwin.tar.xz"
+      sha256 "cc36f76e3797c0c282c1546d82a508d6d390a89544707f68831fa2bf6b83ac9d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/empatisoft/sshcm/releases/download/v0.5.0/sshcm-x86_64-apple-darwin.tar.xz"
-      sha256 "60e08d3a438eed3544e72f3a544d350d2cd198f72f6a154bd5ade6efcf9da33d"
+      url "https://github.com/empatisoft/sshcm/releases/download/v0.6.0/sshcm-x86_64-apple-darwin.tar.xz"
+      sha256 "2c92dca4b6bb67a95c2b013c9c1fc0bbf6ad82e14ff737e734f5f2353554fb6e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/empatisoft/sshcm/releases/download/v0.5.0/sshcm-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "6c7f93b6b4e632222d5e45884376bcdd5d1701ac1f4463e79a10842b984089b2"
+      url "https://github.com/empatisoft/sshcm/releases/download/v0.6.0/sshcm-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "7b481d4268701618e38fae2fa8e0f141418a2d6e1cc3975b0818bc341a55aa03"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/empatisoft/sshcm/releases/download/v0.5.0/sshcm-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "283558e5f83be3ec1f196a811d176fcb25018dab8a9ad4259f1e8c504ed14dd0"
+      url "https://github.com/empatisoft/sshcm/releases/download/v0.6.0/sshcm-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "3bba3d66210a4e678b28ab1e0820562c21bf091597cde2032468e22d0c8e3699"
     end
   end
   license "MIT"
